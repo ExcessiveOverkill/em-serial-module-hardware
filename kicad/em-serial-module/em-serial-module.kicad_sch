@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "aaba3ae4-11b8-4b59-a1b7-b71fee2bce49")
+	(paper "A2")
+	(lib_symbols)
+	(sheet
+		(at 156.21 341.63)
+		(size 12.7 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8194de0b-d34f-419f-a76b-3dc23f62ff51")
+		(property "Sheetname" "CONNECTORS"
+			(at 156.21 340.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONNECTORS.kicad_sch"
+			(at 156.21 352.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "em-serial-module"
+				(path "/aaba3ae4-11b8-4b59-a1b7-b71fee2bce49"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 342.9)
+		(size 12.7 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c928434-6440-485c-badc-adedd35571f6")
+		(property "Sheetname" "MCU"
+			(at 113.03 342.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 113.03 354.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "em-serial-module"
+				(path "/aaba3ae4-11b8-4b59-a1b7-b71fee2bce49"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 341.63)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afe07f4d-5ba8-4263-ac91-57f2eacfe440")
+		(property "Sheetname" "ISOLATED INTERFACE"
+			(at 48.26 340.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ISO.kicad_sch"
+			(at 48.26 354.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "em-serial-module"
+				(path "/aaba3ae4-11b8-4b59-a1b7-b71fee2bce49"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
